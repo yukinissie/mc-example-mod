@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/yukinissie/mc-examplemod/issues/"
+
+[[mods]]
+modId="example_mod"
+version="${file.jarVersion}"
+displayName="Example Mod"
+credits="Thanks for this example mod goes to Java"
+authors="yukinissie <bigtree2490@outlook.jp>"
+description='''
+This is a example minecraft mod.
+'''
+
+[[dependencies.example_mod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.example_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"
